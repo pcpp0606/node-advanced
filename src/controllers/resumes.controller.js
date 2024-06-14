@@ -1,4 +1,3 @@
-import { prisma } from '../utils/prisma.util.js';
 import { HTTP_STATUS } from '../constants/http-status.constant.js';
 import { MESSAGES } from '../constants/message.constant.js';
 import { ResumesService } from '../services/resume.service.js';

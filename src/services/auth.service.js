@@ -1,8 +1,6 @@
 import jwt from 'jsonwebtoken';
 import bcrypt from 'bcrypt';
-import { prisma } from '../utils/prisma.util.js';
 import { MESSAGES } from '../constansts/message.constant.js'
-import { HASH_SALT_ROUNDS } from '../constants/auth.constant.js';
 import { HttpError } from '../errors/http.error.js';
 import { ACCESS_TOKEN_SECRET } from '../constants/env.constant.js';
 import { ACCESS_TOKEN_EXPIRES_IN } from '../constants/auth.constant.js';
