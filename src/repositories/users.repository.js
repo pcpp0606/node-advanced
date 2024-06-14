@@ -3,7 +3,7 @@ import bcrypt from 'bcrypt';
 import { HASH_SALT_ROUNDS } from '../constants/auth.constant.js';
 
 
-export class UserRepository {
+export class UsersRepository {
     create = async ({ email, password, name }) => {
         const hashedPassword = bcrypt.hashSync(password, HASH_SALT_ROUNDS);
 
